@@ -1,0 +1,67 @@
+*{
+
+}
+body{
+    background-image: url('3pool.png');
+    background-size: cover;
+    
+}
+#main{
+    color: #fff;
+}
+.header{
+    font-family: Deadpool movie;
+    
+}
+.firstname{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+.firstname a{
+    text-decoration: none;
+    position: relative;
+    color: #fff;
+}
+.firstname a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff0000;
+    position:absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.firstname a:hover::after{
+    width: 100%;
+}
+.logo img{
+    display: block;
+    width: 180px;
+    height: 38px;
+    margin-left: auto;
+    margin-right: 820px;
+    margin-top: 390px;
+
+}
+.movie img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    height: 100px;
+    width: 500px;
+}
+.description{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: white;
+}
